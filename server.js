@@ -8,10 +8,11 @@ const PORT = process.env.PORT ||3000;
 
 //http://localhost:3000/test
 
-server.use(express.static('./public'));
+server.use(express.static('./public/starter-code'));
+
 server.get('/test',(request,response)=>{
 
-response.send('you are great Esraa');
+response.send('youhhhhhhhhhhhhh are great Esraa');
 
 });
 
